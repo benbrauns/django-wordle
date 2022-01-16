@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .keyboard {
+        flex-direction: column;
+    }
+    .key {
+        background-color: rgb(129 131 132);
+        border-radius: theme('borderRadius.md');
+        color: rgb(215 218 220);
+        width: 2rem;
+        height: 3rem;
+        margin-left: 0.25rem;
+    }
+    .keyButton {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .keyRow {
+        place-content: center;
+        margin-top: 0.25rem;
+    }
+    .specialKey {
+        background-color: rgb(129 131 132);
+        border-radius: theme('borderRadius.md');
+        color: rgb(215 218 220);
+        width: 3.25rem;
+        height: 3rem;
+        margin-left: 0.25rem;
+    }
+}
