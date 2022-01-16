@@ -24,14 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&o77cg-!yf-+ut8_u@j0_ml_tsz_i2op6%f(m#d$c=#n=qx5(y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [
-    '192.168.1.155',
-    '127.0.0.1',
-    '98.213.203.51',
-    'https://django-wordle.herokuapp.com',
-]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
