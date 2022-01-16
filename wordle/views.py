@@ -6,7 +6,7 @@ def home_view(request, *args, **kwargs):
     context = {
         'context_text':text,
     }
-    return render(request, 'home.html', context)
+    return render(request, 'game.html', context)
 
 def wordle_home_view(request, *args, **kwargs):
     text = "Wordle"
