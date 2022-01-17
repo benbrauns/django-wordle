@@ -4,12 +4,12 @@
 
 @layer components {
     .keyboard {
-        flex-direction: column;
     }
     .key {
         background-color: rgb(129 131 132);
         border-radius: theme('borderRadius.md');
         color: rgb(215 218 220);
+        flex: 0 1 auto;
         width: 2rem;
         height: 3rem;
         margin-left: 0.25rem;
@@ -23,6 +23,7 @@
     .keyRow {
         place-content: center;
         margin-top: 0.25rem;
+        flex: 1 1 auto;
     }
     .specialKey {
         background-color: rgb(129 131 132);
@@ -31,5 +32,19 @@
         width: 3.25rem;
         height: 3rem;
         margin-left: 0.25rem;
+    }
+    .gamecell {
+        border-radius: theme('borderRadius.md');
+        font-weight: 700;
+        background-color: rgb(82 82 91);
+        color: rgb(245 245 244);
+        width: 3rem;
+        height: 3rem;
+        place-content: center;
+        place-items: center;
+        flex-shrink: 1;
+        flex-grow: 1;
+        flex: 0 1 auto;
+        max-width: 20rem;
     }
 }
