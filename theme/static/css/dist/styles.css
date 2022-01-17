@@ -905,6 +905,10 @@ select {
   padding-top: 1.5rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
 .align-middle {
   vertical-align: middle;
 }
