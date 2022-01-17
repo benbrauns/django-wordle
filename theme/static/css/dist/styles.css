@@ -866,6 +866,45 @@ select {
   padding-bottom: 0.25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-52 {
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .align-middle {
   vertical-align: middle;
 }
