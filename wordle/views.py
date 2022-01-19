@@ -1,6 +1,3 @@
-from hashlib import new
-from multiprocessing.sharedctypes import Value
-from unittest import result
 from django.shortcuts import render
 from django.http import HttpResponse
 from . import models as m
@@ -82,7 +79,7 @@ def api_guess(request, gameid, g_uess):
         if ''.join(results) == "XXXXX":
             return HttpResponse(f"Game Won!")
         else:
-            return HttpResponse(f"{''.join(results)}, {game.total_guesses}, {game.answer}, {g_uess}")
+            return HttpResponse(f"{''.join(results)}")
     elif m.Game.objects.filter(id=gameid)[0].total_guesses == 6:
         return HttpResponse(f"Out of guesses, the solution was:{m.Game.objects.filter(id=gameid)[0].answer}")
     else:
