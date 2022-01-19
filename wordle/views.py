@@ -1,6 +1,5 @@
 from hashlib import new
 from multiprocessing.sharedctypes import Value
-from tkinter import E
 from unittest import result
 from django.shortcuts import render
 from django.http import HttpResponse
