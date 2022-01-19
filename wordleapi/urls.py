@@ -29,5 +29,6 @@ urlpatterns = [
     #my pages
     path('', home_view, name='home'),
     path('wordle/', wordle_home_view, name='wordle_home'),
+    path('wordle/api/', include('wordle.urls')),
     path('nflsub/', nflsub_home_view, name='nflsub_home'),
 ]
