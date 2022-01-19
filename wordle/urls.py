@@ -1,5 +1,4 @@
 from django.urls import path
-from wordle.views import api_addWords, api_home
 from wordle import views as v
 
 urlpatterns = [
